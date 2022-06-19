@@ -13,7 +13,7 @@ export const SignupPage = () => {
   const register = () => {
     axios
 
-      .post('http://localhost:1337/api/auth/local/register', {
+      .post('https://resplendent-semolina-977144.netlify.app/signup', {
         firstname: firstname,
         lastname: lastname,
         email: email,
